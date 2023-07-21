@@ -1,0 +1,91 @@
+import java.util.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            int s=2*n-1;
+            for(int j=1;j<=s;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+           System.out.println();
+        }
+        for(int i=n;i>=1;i--){
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            int s=2*n-1;
+            for(int j=1;j<=s;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        
+    }
+}
+
+
+import java.util.*;
+class Main {
+
+	public static void main(String[] args) {
+		Scanner obj = new Scanner(System.in);
+		int Num = obj.nextInt();
+		for(int row=1;row<=Num;row++,System.out.println("\n"))
+		{
+			for(int col=1;col<=row;col++)
+			{
+				System.out.print(" * ");
+			}
+		}
+		for(int j=1;j<=s;j++)
+		{
+		    if(j<Num)
+		    s=s-2;
+		    ss++;
+		}
+		else 
+            {  
+               s = s + 2;  
+                ss--;  
+            }  
+		for(int row=Num-1;row>=1;row--,System.out.println("\n"))
+		{
+			for(int col=1;col<=row;col++)
+			{
+				System.out.print("* ");
+			}
+		}
+		
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
